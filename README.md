@@ -4,7 +4,7 @@ The Dataset has two columns:
 2.Text message
 Other unwanted columns are removed.
 We drop the last four columns as the last three columns don’t have any values and we don’t need a length column.
-# Importing package:
+# Multinomial Naïve Bayes.
 from sklearn.feature_extraction.text import CountVectorizer
 countvectorizer =CountVectorizer()
 By using this Count-Vectorizer we’ll tokenize a collection of text documents and built a vocabulary, this vocabulary is also used to encode new documents.
